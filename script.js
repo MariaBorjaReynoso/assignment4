@@ -178,16 +178,16 @@ async function searchShows(query) {
       gallery.appendChild(card);
     });
 
-    setStatus("Showing " + topResults.length + " result(s) for \"" + query + "\".");
+    setStatus("Showing " + topResults.length + " result for \"" + query + "\".");
   } catch (error) {
     console.error("Error fetching shows:", error);
-    setStatus("Something went wrong. Please try again.");
+    setStatus("Please try again.");
   }
 }
 
 /**
  * Handle the form submission.
- * @param {Event} event: The submit event.
+ * @param {Event} event: Submit event.
  */
 function handleSubmit(event) {
   event.preventDefault();
@@ -198,5 +198,5 @@ function handleSubmit(event) {
 // Attach the event listener
 form.addEventListener("submit", handleSubmit);
 
-// Initial default search on page load
+// Default search on page load
 searchShows(DEFAULT_QUERY);

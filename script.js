@@ -106,7 +106,7 @@ function createShowCard(show, castNames) {
   // Link
   const link = document.createElement("a");
   link.href = show.url;
-  link.textContent = "View on TVmaze";
+  link.textContent = "Check on TVmaze";
   link.target = "_blank";
   link.rel = "noopener";
   card.appendChild(link);

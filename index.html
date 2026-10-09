@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!--
+  Name: Maria Reynoso
+  Date: 10.09.2026
+  CSC 372-01
+
+  This is the index.html page it contains a search
+  form and a gallery container where TVmaze show cards are displayed.
+-->
+</head>
+<body>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeowTV Show Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MeowTV Show Gallery</h1>
+    <form id="search-form">
+      <label for="search-input">Search for a show:</label>
+      <input type="text" id="search-input" placeholder="e.g., Friends" />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="status-message"></p>
+    <section id="gallery"></section>
+  </main>
+
+  <footer>
+    <p>
+      Data from
+      <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">
+        TVmaze
+      </a>
+      (CC BY-SA).
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

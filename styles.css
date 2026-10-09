@@ -1,0 +1,92 @@
+/*
+  Name: Maria Reynoso
+  Date: 10.09.2026
+  CSC 372-01
+
+  Styles for the meowTV Show Gallery. Uses Flexbox for the gallery layout.
+*/
+
+/* Generic selectors first */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+/* Context selectors */
+header {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* Classes */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.show-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  width: 280px;
+  box-sizing: border-box;
+}
+
+.show-card h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.show-card p {
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+
+.show-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* IDs */
+#status-message {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

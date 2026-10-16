@@ -15,6 +15,4 @@ A simple web app that lets you search for TV shows and see the results as cards.
 - CSS (Flexbox)
 - JavaScript (Fetch API)
 
-By Maria Reynoso CSC 372-01, Fall 2026
-
-A quick and simple web app that lets you search for TV shows and see the results as cards.
+By Maria Reynoso CSC 372-01

@@ -14,5 +14,3 @@ A simple web app that lets you search for TV shows and see the results as cards.
 - HTML
 - CSS (Flexbox)
 - JavaScript (Fetch API)
-
-By Maria Reynoso CSC 372-01

@@ -199,4 +199,4 @@ function handleSubmit(event) {
 form.addEventListener("submit", handleSubmit);
 
 // Default search on page load
-searchShows(DEFAULT_QUERY);z
+searchShows(DEFAULT_QUERY);

@@ -20,7 +20,7 @@ const statusMessage = document.getElementById("status-message");
 
 /**
  * Strip HTML tags from a string so we can insert it as plain text.
- * @param {string} html - A string that may contain HTML.
+ * @param {string} html: A string that may contain HTML.
  * @return {string} The string with HTML tags removed.
  */
 function stripHtml(html) {
@@ -34,7 +34,7 @@ function stripHtml(html) {
 
 /**
  * Show a status message to the user.
- * @param {string} message - The message to display.
+ * @param {string} message:The message to display.
  */
 function setStatus(message) {
   statusMessage.textContent = message;

@@ -48,12 +48,6 @@ footer {
 }
 
 /* Classes */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
 .show-card {
   background: #fff;
   border: 1px solid #ccc;
